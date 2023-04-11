@@ -77,3 +77,20 @@
   .main-container > * {
     flex: 1;
   }
+
+  .aboutmesection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #aboutmetitle {
+    padding: 1em;
+    font-weight: bold;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    border: 7px var(--bordercolor);
+    border-style: solid;
+    margin: 1em;
+  }

@@ -8,6 +8,20 @@
     flex-direction: column;
   }
 
+  header > * {
+    flex: 1;
+  }
+
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 10px var(--bordercolor);
+    border-style: solid;
+    margin: 1em;
+  }
+
   h1 {
     padding: 1em;
     font-size: 3em;
@@ -32,4 +46,16 @@
     justify-content: center;
     align-items: center;
     color: green;
+  }
+
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    box-shadow: 10px 10px 5px var(--bordercolor);
+  }
+  a:visited {
+    text-decoration: none;
+    color: black;
   }

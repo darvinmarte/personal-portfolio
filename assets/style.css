@@ -59,3 +59,21 @@
     text-decoration: none;
     color: black;
   }
+
+  .imgholder {
+    display: flex;
+    background-image: url(../images/htmlbackgroundpic.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    height: 30vh;
+    justify-content: center;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-container > * {
+    flex: 1;
+  }

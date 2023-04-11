@@ -1,0 +1,35 @@
+* {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background-color: cadetblue;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    padding: 1em;
+    font-size: 3em;
+    font-weight: bolder;
+    display: flex;
+  }
+  
+  h2 {
+    padding: 1 em;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 1em;
+  }
+
+  nav, ul,li {
+    padding: 5px;
+    margin: 0.5em;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: green;
+  }

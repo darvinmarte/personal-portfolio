@@ -1,6 +1,10 @@
 :root {
     --bordercolor: cadetblue;
-    --basecolor: rgb(68, 144, 118)
+    --basecolor: rgb(68, 144, 118);
+    --projwidth: 200px;
+    --projheight: 200px;
+    --projmargin: 1rem;
+    --projpadding: .5rem;
 }
 
 * {
@@ -63,7 +67,7 @@
   a:visited {
     color: white;
   }
-
+/* ombre background pic */
   .imgholder {
     display: flex;
     background-image: url(./images/htmlbackgroundpic.webp);
@@ -105,7 +109,7 @@
     justify-content: center;
     padding: 2rem;
   }
-
+/* added flex to project section */
   .projectsection {
     display: flex;
     flex-direction: column;
@@ -127,7 +131,7 @@
     justify-content: center;
     align-items: center;
   }
-
+/* Project images section */
   #project-1 {
     background-image: url(./images/Screenshot\ 2023-04-02\ at\ 7.26.16\ PM.png);
     background-size: cover;
@@ -145,10 +149,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: contain;
-    width: 200px;
-    height: 200px;
-    margin: 1rem;
-    padding: .5rem;
+    width: var(--projwidth);
+    height: var(--projheight);
+    margin: var(--projmargin);
+    padding: var(--projpadding);
   }
 
   #project-3 {
@@ -156,10 +160,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: contain;
-    width: 200px;
-    height: 200px;
-    margin: 1rem;
-    padding: .5rem;
+    width: var(--projwidth);
+    height: var(--projheight);
+    margin: var(--projmargin);
+    padding: var(--projpadding);
   }
 
   #project-4 {
@@ -167,12 +171,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: contain;
-    width: 200px;
-    height: 200px;
-    margin: 1rem;
-    padding: .5rem;
+    width: var(--projwidth);
+    height: var(--projheight);
+    margin: var(--projmargin);
+    padding: var(--projpadding);
   }
-
+/* Added flex to footer */
   footer {
     display: flex;
     flex-direction: column;

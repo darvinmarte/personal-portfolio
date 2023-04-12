@@ -132,6 +132,7 @@
     background-image: url(./images/Screenshot\ 2023-04-02\ at\ 7.26.16\ PM.png);
     background-size: cover;
     background-repeat: no-repeat;
+    font-size: 2em;
     object-fit: contain;
     width: 300px;
     height: 300px;
@@ -140,7 +141,29 @@
   }
 
   #project-2 {
-    background-image: url();
+    background-image: url(./images/screencapture-127-0-0-1-5502-01-HTML-Git-CSS-01-Activities-22-Stu-Mini-Project-Main-index-html-2023-04-12-18_36_30.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 200px;
+    height: 200px;
+    margin: 1rem;
+    padding: .5rem;
+  }
+
+  #project-3 {
+    background-image: url(./images/screencapture-127-0-0-1-5502-01-HTML-Git-CSS-01-Activities-22-Stu-Mini-Project-Main-index-html-2023-04-12-18_36_30.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 200px;
+    height: 200px;
+    margin: 1rem;
+    padding: .5rem;
+  }
+
+  #project-4 {
+    background-image: url(./images/screencapture-127-0-0-1-5502-01-HTML-Git-CSS-01-Activities-22-Stu-Mini-Project-Main-index-html-2023-04-12-18_36_30.png);
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: contain;
